@@ -1,0 +1,174 @@
+/* 버튼 요소 */
+.btn-blue{
+  background-color: #81B7F2;
+  color: white;
+}
+
+/* Profile */
+body{
+  background-color: #dde4f8;
+}
+
+.card{
+  width: 100%;
+}
+.card-title{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card .card-text{
+  font-size: 18px;
+  margin-bottom: 10px;
+  
+}
+.card-body p{
+  margin-bottom: 10px;
+}
+.location p{
+  padding: 10px;
+  margin-left: -10;
+  margin-bottom: 10px;
+}
+.locations{
+  color: #81B7F2;
+  
+
+}
+.main-head{
+  /* background-color: yellowgreen; */
+  border-right: 2px solid rgb(221, 221, 221);
+}
+
+
+
+/* ===Profile-bar=== */
+.profile-bar p{
+  margin: auto;
+  margin-bottom: 10px;
+  /* marginle */
+  width: 73%;
+  font-size: 3vh;
+  color: #81B7F2;
+}
+.graph{
+  height: 4px;
+  background-color: #dedede;  
+  border-radius: 40px;
+  width: 80%;
+  margin: auto;  
+  margin-bottom: 20px;
+}
+.graph span {
+  display: block;
+  width: 15%;
+  height: 4px;
+  line-height: 5px;
+  text-align: right;
+  background-color: #81B7F2;
+  border-radius: 10px;
+}
+
+/* Profile-main */
+.profile-main{
+  /* width: 100%; */
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.works{
+  margin: auto;
+  width: 100%;
+}
+.works .card-text{
+  color: black;
+  margin-left: 10px;
+  
+}
+.works .card-body .background {
+  text-align: left;
+  margin-left: 0px;
+}
+
+/* Profile-about */
+.profile-ABOUT{
+  width: 100%;
+  /* height: 500px; */
+  margin: auto;
+}
+.badges{
+  width: auto;
+  margin: auto;
+  font-size: 15px;
+  border: 2px solid rgb(94, 94, 94);
+  color: black;
+  padding: 7px 15px;
+  
+}
+.works{
+  margin-bottom: 20px;
+}
+.background-skill{
+  width: 100%;
+}
+.background-skill i{
+  font-size: 100px;
+  color: #81B7F2;
+  margin: auto;
+  padding: 20px;
+  /* width: 100%; */
+}
+.background-skill p{
+  /* margin: auto; */
+  /* background-color: red; */
+  color: black;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.background-skill{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-skill .btn-blue{
+  width: 100px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.profile-main1{
+  margin: auto;
+  /* width: 100%; */
+  margin-top: 0px;
+}
+
+.profile-bar{
+  width: 80%;
+
+}
+
+
+
+/* 반응형 section */
+
+@media (max-width: 767px) {
+  .main-head{
+    border-right: none;
+  }
+  .profile-bar p{
+    font-size: 2vh;
+    width: 75%;
+  }
+  .might{
+    display: none;
+  }
+  .man1{
+    display: none;
+  }
+  .man2{
+    display: none;
+  }
+}
